@@ -9,6 +9,7 @@ import { ROUTES } from './app.router';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { PanelComponent } from './panel/panel.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    PanelComponent
   ],
   imports: [
     RouterModule.forRoot(ROUTES),
