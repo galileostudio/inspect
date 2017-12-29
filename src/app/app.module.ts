@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { ROUTES } from './app.router';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     RouterModule.forRoot(ROUTES),
